@@ -20,6 +20,15 @@ textarea {
     max-width: 960px;
     width: 960px;
   }
+  .section {
+    margin-top: 3rem;
+  }
+  .navbar-main {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: fixed;
+  }
 }
 @media screen and (min-width: 1472px) {
   .is-2-column .container {
@@ -44,10 +53,7 @@ textarea {
     align-self: flex-start;
     position: -webkit-sticky;
     position: sticky;
-    top: 0.75rem;
-  }
-  .column-right-shadow.is-sticky {
-    top: 1.5rem;
+    top: 4rem;
   }
 }
 .tag.is-grey {
@@ -281,6 +287,9 @@ img.thumbnail {
 }
 .is-size-7 {
   font-size: 0.85rem !important;
+}
+.is-size-3 {
+  font-size: 2rem !important;
 }
 .is-7by1 {
   padding-top: 42.8%;
