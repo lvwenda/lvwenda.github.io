@@ -21,7 +21,7 @@
     setTimeout(function () {
         $('body > .navbar, body > .section, body > .footer').forEach(function (element) {
             element.style.opacity = '1';
-            element.style.transition = 'opacity 0.3s ease-out, transform 0.3s ease-out';
+            element.style.transition = 'opacity 0.3s ease-out, transform 0.3s ease-out, box-shadow 0.3s ease-in-out';
         });
         document.querySelector('body > .navbar').style.transform = 'translateY(0)';
         ['.column-main > .card',
