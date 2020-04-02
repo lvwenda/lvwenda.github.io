@@ -14,6 +14,9 @@ select,
 textarea {
   font-family: "Ubuntu", "Roboto", "Open Sans", "Microsoft YaHei", sans-serif;
 }
+p {
+  color: #555;
+}
 @media screen and (min-width: 1280px) {
   .is-1-column .container,
   .is-2-column .container {
@@ -364,7 +367,7 @@ img.thumbnail {
   color: #7a7a7a !important;
 }
 .has-link-black-ter {
-  color: #242424 !important;
+  color: #555;
 }
 @media screen and (max-width: 768px) {
   .has-text-centered-mobile {
